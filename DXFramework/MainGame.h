@@ -2,7 +2,7 @@
 class MainGame
 {
 private:
-	Player * player;
+
 public:
 	MainGame();
 	~MainGame();

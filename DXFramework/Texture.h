@@ -45,5 +45,7 @@ public:
 	void Render();
 
 	void GetSize(D3DXVECTOR2* size) { *size = cutEnd - cutStart; }
+
+	static void ReleaseTexture();
 };
 

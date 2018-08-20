@@ -157,6 +157,8 @@
     <ClInclude Include="InputManager.h" />
     <ClInclude Include="MainGame.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SoundManager.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Texture.h" />
@@ -170,6 +172,8 @@
     <ClCompile Include="DXFramework.cpp" />
     <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

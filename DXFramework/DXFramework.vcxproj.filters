@@ -40,6 +40,12 @@
     <Filter Include="Framework\Util">
       <UniqueIdentifier>{4a329acb-0e52-41d1-a708-5abb2aa250af}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Framework\SoundManager">
+      <UniqueIdentifier>{469cac32-5cdf-46f5-92fe-fbb5a55ada77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene">
+      <UniqueIdentifier>{948287a1-3173-4817-aa02-0f50b4884b3a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -78,6 +84,12 @@
     <ClInclude Include="Util.h">
       <Filter>Framework\Util</Filter>
     </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Framework\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -109,6 +121,12 @@
     </ClCompile>
     <ClCompile Include="Util.cpp">
       <Filter>Framework\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Framework\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>MainGame\Scene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

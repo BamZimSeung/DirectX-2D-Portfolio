@@ -46,7 +46,7 @@ void Device::DrawBegin()
 		D3DCLEAR_TARGET | D3DCLEAR_ZBUFFER,
 		//소거할 대상 지정
 		//target : 후면버퍼, zbuffer : 깊이버퍼
-		0xffff69b4,
+		0xff000000,
 		1.0f,
 		0
 	);

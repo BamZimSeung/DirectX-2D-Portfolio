@@ -28,15 +28,7 @@ Texture::Texture(LPDIRECT3DTEXTURE9 texture, D3DXVECTOR2 cutStart, D3DXVECTOR2 c
 
 Texture::~Texture()
 {
-	SAFE_RELEASE(vertexBuffer);
-
-	for (auto iter : textures) {
-		SAFE_DELETE(iter);
-	}
-
-	for (auto iter : textureMap) {
-		SAFE_RELEASE(iter.second);
-	}
+	
 }
 
 void Texture::CreateVertexBuffer()
@@ -120,4 +112,17 @@ void Texture::Render()
 	DEVICE->SetStreamSource(0, vertexBuffer, 0, sizeof(Vertex));
 
 	DEVICE->DrawPrimitive(D3DPT_TRIANGLELIST, number * 6, 2);
+}
+
+void Texture::ReleaseTexture()
+{
+	SAFE_RELEASE(vertexBuffer);
+
+	for (auto iter : textures) {
+		SAFE_DELETE(iter);
+	}
+
+	for (auto iter : textureMap) {
+		SAFE_RELEASE(iter.second);
+	}
 }

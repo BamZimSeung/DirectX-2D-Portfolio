@@ -10,7 +10,7 @@ private:
 private:
 	TimeManager();
 	~TimeManager();
-
+	
 public:
 	static TimeManager* GetTimeManager() {
 		static TimeManager instance;
